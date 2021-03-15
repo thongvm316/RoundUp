@@ -1,0 +1,255 @@
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ---- Main Css ---- */
+/* Menu */
+.menu .container-fluid {
+  border-bottom: 4px solid #FF9900;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li {
+  padding: 0 24px;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p,
+.menu .container-fluid .login-register-language div {
+  margin: 0 16px;
+  margin-bottom: 0;
+}
+
+.menu .container-fluid .login-register-language p a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(1) {
+  border-right: 1px solid #E8E9EC;
+  padding-right: 25px;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) {
+  border-radius: 20px;
+  background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+  padding: .5rem 1rem .2rem 1rem;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) a {
+  color: #fff;
+}
+
+.menu .container-fluid .login-register-language div {
+  border: 2px solid #E8E9EC;
+  border-radius: 4px;
+  padding: .1rem 1rem;
+}
+
+.menu .container-fluid .login-register-language div i {
+  margin: 3px 0 0 3px;
+  color: #808080;
+}
+
+/* Banner */
+.banner-carousel .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Company Investor */
+/* Divider */
+.divider {
+  margin: 92px 0;
+}
+
+.divider .container-xl .separator {
+  width: 100%;
+  background-color: #cacaca;
+  height: 1px;
+  margin-top: .7rem;
+}
+
+.divider .container-xl .img {
+  padding: 0 1rem;
+}
+
+/* Latest curation */
+/* Roundup Magazine */
+.roundup-magazine {
+  background-color: #F9ECE7;
+  height: 680px;
+  padding-top: 40px;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine {
+  width: 70%;
+  position: relative;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine .background {
+  position: absolute;
+  z-index: 0;
+  width: 960px;
+  height: 440px;
+  background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+}
+
+.roundup-magazine .container-xl .d-flex .magazine .d-flex {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 70px;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine-info {
+  width: 30%;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine-info h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #FF5906;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine-info h4 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #808080;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine-info p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.roundup-magazine .container-xl .d-flex .magazine-info button {
+  background-color: #FF5906;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+/* Latest Media */
+/* Latest News */
+.latest-news .container-xl h1 {
+  width: 141px;
+  font-weight: 400;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #FF5906;
+  border-bottom: 3px solid #808080;
+}
+
+.latest-news .container-xl .d-flex .left {
+  width: 50%;
+}
+
+.latest-news .container-xl .d-flex .left .one .d-flex div,
+.latest-news .container-xl .d-flex .left .two .d-flex div {
+  width: 368px;
+  height: 208px;
+  padding: 0 8px;
+}
+
+.latest-news .container-xl .d-flex .left .one .d-flex div:last-child h5,
+.latest-news .container-xl .d-flex .left .two .d-flex div:last-child h5 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.latest-news .container-xl .d-flex .left .one .d-flex div:last-child h2,
+.latest-news .container-xl .d-flex .left .two .d-flex div:last-child h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.latest-news .container-xl .d-flex .left .one .d-flex div:last-child p,
+.latest-news .container-xl .d-flex .left .two .d-flex div:last-child p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+
+.latest-news .container-xl .d-flex .left .one .d-flex div:last-child a,
+.latest-news .container-xl .d-flex .left .two .d-flex div:last-child a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FF9900;
+}
+
+.latest-news .container-xl .d-flex .right {
+  width: 50%;
+}
+
+.latest-news .container-xl .d-flex .right .d-flex {
+  background: #222;
+}
+
+.latest-news .container-xl .d-flex .right .d-flex div:last-child {
+  padding-top: 20px;
+  background-color: #fff;
+}
+
+.latest-news .container-xl .d-flex .right .d-flex div:last-child h5,
+.latest-news .container-xl .d-flex .right .d-flex div:last-child p {
+  margin-bottom: 0;
+}
+
+.latest-news .container-xl .d-flex .right .d-flex div:last-child h5 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+
+.latest-news .container-xl .d-flex .right .d-flex div:last-child p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+}
+
+/* ------- Media Query ------- */
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1560px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
