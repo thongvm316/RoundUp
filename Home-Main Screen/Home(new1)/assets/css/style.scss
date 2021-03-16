@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: auto;
     overflow-x: hidden;
+    background-color: #F8F9FB;
 }
 
 img {
@@ -245,13 +246,17 @@ p {
 
             .right {
                 width: 50%;
+                height: 505px;
+                overflow-y: scroll;
 
                 .d-flex {
-                    background: #222;
+                    margin: 8px 0;
+                    height: 90px;
+                    background-color: #fff;
+                    border: 1px solid #d1d1d6;
 
                     div:last-child {
                         padding-top: 20px;
-                        background-color: #fff;
 
                         h5,
                         p {
@@ -272,6 +277,44 @@ p {
                     }
                 }
             }
+        }
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 124px;
+    background-color: #464646;
+    height: 467px;
+
+    .container-xl {
+        padding-top: 63px;
+
+        .style-footer {
+            justify-content: space-between;
+
+            .desc {
+                width: 40%;
+
+                p {
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #fff;
+                    margin-top: 24px;
+                }
+            }
+
+            .about-us {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+
+            }
+        }
+
+        .line {
+            height: 2px;
+            background-color: #fff;
         }
     }
 }

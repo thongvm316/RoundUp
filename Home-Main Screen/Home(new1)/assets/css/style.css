@@ -17,6 +17,7 @@ body {
   width: 100vw;
   height: auto;
   overflow-x: hidden;
+  background-color: #F8F9FB;
 }
 
 img {
@@ -218,15 +219,19 @@ p {
 
 .latest-news .container-xl .d-flex .right {
   width: 50%;
+  height: 505px;
+  overflow-y: scroll;
 }
 
 .latest-news .container-xl .d-flex .right .d-flex {
-  background: #222;
+  margin: 8px 0;
+  height: 90px;
+  background-color: #fff;
+  border: 1px solid #d1d1d6;
 }
 
 .latest-news .container-xl .d-flex .right .d-flex div:last-child {
   padding-top: 20px;
-  background-color: #fff;
 }
 
 .latest-news .container-xl .d-flex .right .d-flex div:last-child h5,
@@ -244,6 +249,49 @@ p {
   font-weight: 700;
   font-size: 18px;
   color: #000;
+}
+
+/* Footer */
+.footer {
+  margin-top: 124px;
+  background-color: #464646;
+  height: 467px;
+}
+
+.footer .container-xl {
+  padding-top: 63px;
+}
+
+.footer .container-xl .style-footer {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container-xl .style-footer .desc {
+  width: 40%;
+}
+
+.footer .container-xl .style-footer .desc p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.footer .container-xl .style-footer .about-us {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .container-xl .line {
+  height: 2px;
+  background-color: #fff;
 }
 
 /* ------- Media Query ------- */
