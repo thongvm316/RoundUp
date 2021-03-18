@@ -1,0 +1,138 @@
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+  background-color: #F8F9FB;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* ---- Main Css ---- */
+/* Menu */
+.menu .container-fluid {
+  border-bottom: 4px solid #FF9900;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li {
+  padding: 0 24px;
+}
+
+.menu .container-fluid nav .navbar-collapse ul li a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p,
+.menu .container-fluid .login-register-language div {
+  margin: 0 16px;
+  margin-bottom: 0;
+}
+
+.menu .container-fluid .login-register-language p a {
+  font-weight: 400;
+  font-size: 18px;
+  color: #808080;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(1) {
+  border-right: 1px solid #E8E9EC;
+  padding-right: 25px;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) {
+  border-radius: 20px;
+  background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+  padding: .5rem 1rem .2rem 1rem;
+}
+
+.menu .container-fluid .login-register-language p:nth-child(2) a {
+  color: #fff;
+}
+
+.menu .container-fluid .login-register-language div {
+  border: 2px solid #E8E9EC;
+  border-radius: 4px;
+  padding: .1rem 1rem;
+}
+
+.menu .container-fluid .login-register-language div i {
+  margin: 3px 0 0 3px;
+  color: #808080;
+}
+
+/* Why RoundUp */
+.why-roundUp {
+  margin-top: 120px;
+}
+
+.why-roundUp .container-xl .one .gr h1 {
+  font-weight: 500;
+  font-size: 72px;
+  color: #FF5906;
+}
+
+.why-roundUp .container-xl .two .left .info1-l .l1,
+.why-roundUp .container-xl .two .left .info2-l .l2 {
+  text-align: end;
+}
+
+.why-roundUp .container-xl .two .left .info1-l .l1 h2,
+.why-roundUp .container-xl .two .left .info2-l .l2 h2,
+.why-roundUp .container-xl .two .right .info1-r .l1 h2,
+.why-roundUp .container-xl .two .right .info2-r .l2 h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.why-roundUp .container-xl .two .left .info1-l .l1 p,
+.why-roundUp .container-xl .two .left .info2-l .l2 p,
+.why-roundUp .container-xl .two .right .info1-r .l1 p,
+.why-roundUp .container-xl .two .right .info2-r .l2 p {
+  font-weight: 300;
+  font-size: 24px;
+  color: #808080;
+}
+
+.why-roundUp .container-xl .two .right {
+  padding-top: 120px;
+}
+
+/* About RoundUp price policy */
+.roundUp-price-policy {
+  background-color: #F8E9E4;
+}
+
+/* ------- Media Query ------- */
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1560px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */

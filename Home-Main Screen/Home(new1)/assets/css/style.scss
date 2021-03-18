@@ -297,7 +297,7 @@ p {
                 width: 40%;
 
                 p {
-                    font-weight: 500;
+                    font-weight: 400;
                     font-size: 16px;
                     color: #fff;
                     margin-top: 24px;
@@ -309,12 +309,39 @@ p {
                 display: flex;
                 justify-content: space-between;
 
+                .company,
+                .policies,
+                .support {
+                    h1 {
+                        text-decoration: underline;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #fff;
+
+                    }
+                }
             }
         }
 
         .line {
             height: 2px;
             background-color: #fff;
+        }
+
+        .info {
+            margin-top: 32px;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+            }
         }
     }
 }

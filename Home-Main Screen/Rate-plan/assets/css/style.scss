@@ -1,0 +1,164 @@
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #F8F9FB;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ---- Main Css ---- */
+
+/* Menu */
+.menu {
+    .container-fluid {
+        border-bottom: 4px solid #FF9900;
+
+        nav {
+            .navbar-collapse {
+                ul {
+                    li {
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #808080;
+                        }
+
+                        padding: 0 24px;
+                    }
+                }
+            }
+        }
+
+        .login-register-language {
+
+            p,
+            div {
+                margin: 0 16px;
+                margin-bottom: 0;
+            }
+
+            p a {
+                font-weight: 400;
+                font-size: 18px;
+                color: #808080;
+            }
+
+            p:nth-child(1) {
+                border-right: 1px solid #E8E9EC;
+                padding-right: 25px;
+            }
+
+            p:nth-child(2) {
+                a {
+                    color: #fff;
+                }
+
+                border-radius: 20px;
+                background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+                padding: .5rem 1rem .2rem 1rem;
+            }
+
+            div {
+                border: 2px solid #E8E9EC;
+                border-radius: 4px;
+                padding: .1rem 1rem;
+
+                i {
+                    margin: 3px 0 0 3px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+/* Why RoundUp */
+.why-roundUp {
+    margin-top: 120px;
+
+    .container-xl {
+        .one {
+            .gr {
+                h1 {
+                    font-weight: 500;
+                    font-size: 72px;
+                    color: #FF5906;
+                }
+            }
+        }
+
+        .two {
+            .left {
+
+                .info1-l .l1,
+                .info2-l .l2 {
+                    text-align: end;
+                }
+            }
+
+            .left .info1-l .l1,
+            .left .info2-l .l2,
+            .right .info1-r .l1,
+            .right .info2-r .l2 {
+                h2 {
+                    font-size: 48px;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 24px;
+                    color: #808080;
+                }
+            }
+
+            .right {
+                padding-top: 120px;
+            }
+        }
+    }
+}
+
+/* About RoundUp price policy */
+.roundUp-price-policy {
+    background-color: #F8E9E4;
+
+    .container-xl {
+        .row {}
+    }
+}
+
+/* ------- Media Query ------- */
+@media (min-width: 1200px) {
+    .container-xl {
+        max-width: 1560px !important;
+    }
+}

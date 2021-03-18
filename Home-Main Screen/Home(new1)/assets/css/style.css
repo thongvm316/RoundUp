@@ -273,7 +273,7 @@ p {
 }
 
 .footer .container-xl .style-footer .desc p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   color: #fff;
   margin-top: 24px;
@@ -289,9 +289,36 @@ p {
           justify-content: space-between;
 }
 
+.footer .container-xl .style-footer .about-us .company h1,
+.footer .container-xl .style-footer .about-us .policies h1,
+.footer .container-xl .style-footer .about-us .support h1 {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer .container-xl .style-footer .about-us .company p,
+.footer .container-xl .style-footer .about-us .policies p,
+.footer .container-xl .style-footer .about-us .support p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
 .footer .container-xl .line {
   height: 2px;
   background-color: #fff;
+}
+
+.footer .container-xl .info {
+  margin-top: 32px;
+}
+
+.footer .container-xl .info p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
 }
 
 /* ------- Media Query ------- */
