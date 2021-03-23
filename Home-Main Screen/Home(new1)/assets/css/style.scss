@@ -1,0 +1,358 @@
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #F8F9FB;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ---- Main Css ---- */
+
+/* Menu */
+.menu {
+    .container-fluid {
+        border-bottom: 4px solid #FF9900;
+
+        nav {
+            .navbar-collapse {
+                ul {
+                    li {
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #808080;
+                        }
+
+                        padding: 0 24px;
+                    }
+                }
+            }
+        }
+
+        .login-register-language {
+
+            p,
+            div {
+                margin: 0 16px;
+                margin-bottom: 0;
+            }
+
+            p a {
+                font-weight: 400;
+                font-size: 18px;
+                color: #808080;
+            }
+
+            p:nth-child(1) {
+                border-right: 1px solid #E8E9EC;
+                padding-right: 25px;
+            }
+
+            p:nth-child(2) {
+                a {
+                    color: #fff;
+                }
+
+                border-radius: 20px;
+                background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+                padding: .5rem 1rem .2rem 1rem;
+            }
+
+            div {
+                border: 2px solid #E8E9EC;
+                border-radius: 4px;
+                padding: .1rem 1rem;
+
+                i {
+                    margin: 3px 0 0 3px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+/* Banner */
+.banner-carousel {
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+/* Company Investor */
+
+/* Divider */
+.divider {
+    margin: 92px 0;
+
+    .container-xl {
+        .separator {
+            width: 100%;
+            background-color: #cacaca;
+            height: 1px;
+            margin-top: .7rem;
+        }
+
+        .img {
+            padding: 0 1rem;
+        }
+    }
+}
+
+/* Latest curation */
+/* Roundup Magazine */
+.roundup-magazine {
+    background-color: #F9ECE7;
+    height: 680px;
+    padding-top: 40px;
+
+    .container-xl {
+        .d-flex {
+            .magazine {
+                width: 70%;
+                position: relative;
+
+                .background {
+                    position: absolute;
+                    z-index: 0;
+                    width: 960px;
+                    height: 440px;
+                    background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+                }
+
+                .d-flex {
+                    position: absolute;
+                    z-index: 1;
+                    top: 10px;
+                    right: 70px;
+                }
+            }
+
+            .magazine-info {
+                width: 30%;
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 48px;
+                    color: #FF5906;
+                }
+
+                h4 {
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #808080;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #808080;
+                }
+
+                button {
+                    background-color: #FF5906;
+                    color: #fff;
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+/* Latest Media */
+/* Latest News */
+.latest-news {
+    .container-xl {
+        h1 {
+            width: 141px;
+            font-weight: 400;
+            font-size: 36px;
+            margin-bottom: 40px;
+            color: #FF5906;
+            border-bottom: 3px solid #808080;
+        }
+
+        .d-flex {
+            .left {
+                width: 50%;
+
+                .one,
+                .two {
+                    .d-flex {
+                        div {
+                            width: 368px;
+                            height: 208px;
+                            padding: 0 8px;
+                        }
+
+                        div:last-child {
+                            h5 {
+                                font-weight: 400;
+                                font-size: 18px;
+                                color: #808080;
+                            }
+
+                            h2 {
+                                font-weight: 700;
+                                font-size: 24px;
+                                color: #000;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                color: #808080;
+                            }
+
+                            a {
+                                font-weight: 500;
+                                font-size: 14px;
+                                color: #FF9900;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .right {
+                width: 50%;
+                height: 505px;
+                overflow-y: scroll;
+
+                .d-flex {
+                    margin: 8px 0;
+                    height: 90px;
+                    background-color: #fff;
+                    border: 1px solid #d1d1d6;
+
+                    div:last-child {
+                        padding-top: 20px;
+
+                        h5,
+                        p {
+                            margin-bottom: 0;
+                        }
+
+                        h5 {
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #808080;
+                        }
+
+                        p {
+                            font-weight: 700;
+                            font-size: 18px;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 124px;
+    background-color: #464646;
+    height: 467px;
+
+    .container-xl {
+        padding-top: 63px;
+
+        .style-footer {
+            justify-content: space-between;
+
+            .desc {
+                width: 40%;
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    margin-top: 24px;
+                }
+            }
+
+            .about-us {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+
+                .company,
+                .policies,
+                .support {
+                    h1 {
+                        text-decoration: underline;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #fff;
+
+                    }
+                }
+            }
+        }
+
+        .line {
+            height: 2px;
+            background-color: #fff;
+        }
+
+        .info {
+            margin-top: 32px;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* ------- Media Query ------- */
+@media (min-width: 1200px) {
+    .container-xl {
+        max-width: 1560px !important;
+    }
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

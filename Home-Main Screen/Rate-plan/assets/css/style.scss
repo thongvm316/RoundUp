@@ -1,0 +1,728 @@
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    background-color: #F8F9FB;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    line-height: 1.6;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+// Swiper css
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+}
+
+/* ---- Main Css ---- */
+
+/* Menu */
+.menu {
+    .container-fluid {
+        border-bottom: 4px solid #FF9900;
+
+        nav {
+            .navbar-collapse {
+                ul {
+                    li {
+                        a {
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #808080;
+                        }
+
+                        padding: 0 24px;
+                    }
+                }
+            }
+        }
+
+        .login-register-language {
+
+            p,
+            div {
+                margin: 0 16px;
+                margin-bottom: 0;
+            }
+
+            p a {
+                font-weight: 400;
+                font-size: 18px;
+                color: #808080;
+            }
+
+            p:nth-child(1) {
+                border-right: 1px solid #E8E9EC;
+                padding-right: 25px;
+            }
+
+            p:nth-child(2) {
+                a {
+                    color: #fff;
+                }
+
+                border-radius: 20px;
+                background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+                padding: .5rem 1rem .2rem 1rem;
+            }
+
+            div {
+                border: 2px solid #E8E9EC;
+                border-radius: 4px;
+                padding: .1rem 1rem;
+
+                i {
+                    margin: 3px 0 0 3px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+/* Why RoundUp */
+.why-roundUp {
+
+    .container-xl {
+        .one {
+            .gr {
+                h1 {
+                    font-weight: 500;
+                    font-size: 72px;
+                    color: #FF5906;
+                }
+            }
+        }
+
+        .two {
+            .left {
+
+                .info1-l .l1,
+                .info2-l .l2 {
+                    text-align: end;
+                }
+            }
+
+            .left .info1-l .l1,
+            .left .info2-l .l2,
+            .right .info1-r .l1,
+            .right .info2-r .l2 {
+                h2 {
+                    font-size: 48px;
+                    font-weight: 400;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 24px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+/* About RoundUp price policy */
+.roundUp-price-policy {
+    background-color: #F8E9E4;
+
+    .container-xl {
+        .row {
+            .title h1 {
+                font-weight: 500;
+                font-size: 64px;
+                color: #FF5906;
+            }
+
+            .card-roundup1,
+            .card-roundup2,
+            .card-roundup3 {
+                width: 520px;
+                height: 610px;
+
+                background-color: #fff;
+                position: relative;
+
+                h3 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    text-transform: uppercase;
+                    padding: 1rem;
+                    margin-bottom: 0;
+                }
+
+                h1 {
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 52px;
+                    color: #FF5906;
+                }
+
+                p {
+                    font-weight: 300;
+                    font-size: 26px;
+                    color: #808080;
+                }
+
+                .price {
+                    padding: 13px 100px;
+
+                    p {
+                        margin-bottom: 0;
+                    }
+
+                    P:nth-child(1) {
+                        font-weight: 500;
+                        font-size: 26px;
+                        color: #FF5906;
+                    }
+
+                    p:nth-child(2) {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .card-roundup1 {
+                h3 {
+                    background: rgba(255, 153, 0, 0.2);
+                }
+            }
+
+            .card-roundup2 {
+                h3 {
+                    background: rgba(0, 122, 255, 0.2);
+                }
+            }
+
+            .card-roundup3 {
+                h3 {
+                    background: rgba(52, 199, 89, 0.2);
+                }
+            }
+
+            .gr {
+                h2 {
+                    font-weight: 400;
+                    font-size: 48px;
+                    color: #FF5906;
+                }
+
+                P {
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+/* Payment */
+.payment {
+    .container-xl {
+        .row {
+            .title h2 {
+                font-weight: 500;
+                font-size: 64px;
+                color: #FF5906;
+            }
+
+            .one {
+
+                .gr1,
+                .gr2,
+                .gr3 {
+                    p strong {
+                        font-weight: 500;
+                        font-size: 24px;
+                    }
+                }
+
+                .gr1,
+                .gr2 {
+                    p:nth-child(2) {
+                        font-size: 24px;
+                        font-weight: 300;
+                        color: #808080;
+                    }
+                }
+
+                .gr3,
+                .gr4 {
+                    .custom-control-input:checked~.custom-control-label::before {
+                        border-color: #FF9900 !important;
+                        background-color: #FF9900 !important;
+                    }
+                }
+            }
+
+            .two {
+                .card {
+                    border: 3px solid #FF5906;
+                }
+
+                .gr1,
+                .gr2 {
+                    p:nth-child(2) {
+                        color: #808080;
+                    }
+                }
+
+                .gr3 p:nth-child(2) {
+                    color: #FF5906;
+                }
+
+                a {
+                    background-color: #FF5906;
+                    border-color: #FF5906;
+                }
+            }
+        }
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 124px;
+    background-color: #464646;
+    height: auto;
+
+    .container-xl {
+
+        .style-footer {
+            justify-content: space-between;
+
+            .desc {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #fff;
+                    margin-top: 24px;
+                }
+            }
+
+            .about-us {
+                display: flex;
+                justify-content: space-between;
+
+                .company,
+                .policies,
+                .support {
+                    h1 {
+                        text-decoration: underline;
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #fff;
+
+                    }
+                }
+            }
+        }
+
+        .line {
+            height: 2px;
+            background-color: #fff;
+        }
+
+        .info {
+            margin-top: 32px;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+    }
+}
+
+/* ------- Media Query ------- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Why RoundUp */
+    .why-roundUp {
+
+        .container-xl {
+            .one {
+                .gr {
+                    h1 {
+                        font-size: 28.8px;
+                    }
+
+                    div {
+                        width: 141px;
+                        height: 32px;
+                    }
+                }
+            }
+
+            .two {
+
+                .left .info1-l .l1,
+                .left .info2-l .l2,
+                .right .info1-r .l1,
+                .right .info2-r .l2 {
+                    h2 {
+                        font-size: 19.2px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        font-weight: 300;
+                        font-size: 9.6px;
+                    }
+                }
+
+                .left .info1-l .r1,
+                .left .info2-l .r2,
+                .right .info1-r .r1,
+                .right .info2-r .r2 {
+                    width: 131px;
+                    height: 96px;
+                }
+
+                .right {
+                    padding-top: 40px;
+                }
+            }
+        }
+    }
+
+    /* About RoundUp price policy */
+    .roundUp-price-policy {
+        .container-xl {
+            .row {
+                .title h1 {
+                    font-size: 25.6px;
+                }
+
+                .card-roundup1,
+                .card-roundup2,
+                .card-roundup3 {
+                    width: 250px;
+                    height: 330px;
+
+                    h3 {
+                        font-size: 13px;
+                    }
+
+                    h1 {
+                        font-size: 20.73px;
+                    }
+
+                    p {
+                        font-size: 10.36px;
+                    }
+
+                    .price {
+                        p:nth-child(1) {
+                            font-size: 10px;
+                        }
+
+                        P:nth-child(2) {
+                            font-size: 7px;
+                        }
+                    }
+                }
+
+                .right {
+                    padding-top: 150px;
+
+                    .gr {
+                        h2 {
+                            font-size: 19.2px;
+                        }
+
+                        p {
+                            font-size: 7.2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Make a payment */
+    .payment {
+        .container-xl {
+            .row {
+                .title h2 {
+                    font-size: 25.6px;
+                }
+
+                .one {
+
+                    .gr1,
+                    .gr2,
+                    .gr3 {
+                        p strong {
+                            font-size: 9.6px;
+                        }
+
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .gr1,
+                    .gr2 {
+                        p:nth-child(2) {
+                            font-size: 9.6px;
+                            margin-bottom: 0;
+                            padding-top: 5px;
+                        }
+                    }
+
+                    .gr3 {
+                        .d-flex {
+                            label {
+                                font-size: 9.6px;
+                                color: #808080;
+                                padding-top: 5px;
+                            }
+                        }
+                    }
+
+                    .gr4 {
+                        label {
+                            font-size: 9.6px;
+                        }
+                    }
+                }
+
+                .two {
+                    .card {
+                        .card-title {
+                            font-size: 12.8px;
+                        }
+
+                        .gr1,
+                        .gr2,
+                        .gr3 {
+                            p {
+                                font-size: 9.6px;
+                            }
+                        }
+
+                        a {
+                            font-size: 12.8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    /* Menu */
+    .menu {
+        .container-fluid nav {
+            .navbar-collapse {
+
+                ul li a,
+                .login-register-language p a {
+                    font-size: 12px;
+                }
+
+            }
+        }
+    }
+
+    /* Why RoundUp */
+    .why-roundUp {
+        .container-xl {
+            .one .gr {
+                h1 {
+                    font-size: 24px;
+                }
+
+                div {
+                    width: 131px;
+                    height: 30px;
+                }
+            }
+
+            .two {
+                .left {
+                    .info2-l {
+                        .r2 {
+                            order: 1;
+                            transform: rotateY(180deg);
+                        }
+
+                        .l2 {
+                            order: 2;
+                            text-align: start;
+                        }
+                    }
+                }
+
+                .right {
+                    .info1-r {
+                        .r1 {
+                            order: 2;
+                            transform: rotateY(180deg);
+                        }
+
+                        .l1 {
+                            order: 1;
+                            text-align: end;
+                        }
+                    }
+                }
+
+                .left .info1-l .l1,
+                .left .info2-l .l2,
+                .right .info1-r .l1,
+                .right .info2-r .l2 {
+                    h2 {
+                        font-size: 15.2px;
+                    }
+
+                    p {
+                        font-size: 9.6px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* About RoundUp price policy */
+    .roundUp-price-policy {
+        .container-xl {
+            .row {
+                .title h1 {
+                    font-size: 24px;
+                }
+
+                .card-roundup1,
+                .card-roundup2,
+                .card-roundup3 {
+                    height: 400px;
+                    width: 700px;
+
+                    h3 {
+                        font-size: 11px;
+                    }
+
+                    h1 {
+                        font-size: 18.5px;
+                    }
+
+                    p {
+                        font-size: 9.2px;
+                        padding-top: 10px;
+                    }
+
+                    .price {
+
+                        P:nth-child(1) {
+                            font-size: 14px;
+                        }
+
+                        p:nth-child(2) {
+                            font-size: 9.2px;
+                        }
+                    }
+                }
+
+                .right {
+                    .gr {
+                        h2 {
+                            font-size: 18px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    /* Make a payment */
+    .payment {
+        .container-xl {
+            .row {
+                .title h2 {
+                    font-size: 24px;
+                }
+
+                .one {
+
+                    .gr1,
+                    .gr2,
+                    .gr3 {
+                        p strong {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .gr1,
+                    .gr2 {
+                        p:nth-child(2) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .container-xl {
+        max-width: 1560px !important;
+    }
+}
