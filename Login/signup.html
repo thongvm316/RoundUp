@@ -76,6 +76,7 @@
         <a class="navbar-branch col-xl-3 col-md-3 col-sm-3 col-3" href="#">
             <img class="nav-img" src="./assets/images/menu-bar-logo.png">
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -106,7 +107,7 @@
                 </li>
             </ul>
         </div>
-        <ul class="collapse navbar-collapse col-xl-3 col-md-3 col-sm-3 col-3 justify-content-end" style="list-style: none">
+        <ul class="collapse navbar-expand-md navbar-collapse col-xl-3 col-md-3 col-sm-3 col-3 justify-content-end" style="list-style: none">
             <li>
                 <a class="nav-link border-right" href="#">
                     <p class="form-label">로그인</p>
@@ -137,8 +138,8 @@
 </nav>
 
 <hr class="line-space">
-
-<div class="login-box relative col-12">
+<!--Signup container-->
+<div class="signup-box relative col-12">
     <div class="col-xl-10 justify-content-center mb-5">
         <div class="title text-center">
             <img class="img-title" src="./assets/images/login-image.png" height="80px" width="90px">
@@ -148,41 +149,64 @@
             <form accept-charset="UTF-8" role="form">
                 <fieldset>
                     <div class="form-group">
-                        <label class="form-label text-big">이메일</label>
+                        <label class="form-label row">
+                            <p class="text-big">이메일</p>
+                            <p class="text-danger">*</p>
+                        </label>
                         <input class="form-control" name="email" type="text">
                     </div>
                     <div class="form-group">
-                        <label class="form-label text-big">비밀번호</label>
-                        <input class="form-control" name="password" type="password" value="">
+                        <label class="form-label row">
+                            <p class="text-big">비밀번호</p>
+                            <p class="text-danger">*</p>
+                        </label>
+                        <input class="form-control"  name="password" type="password" value="">
                     </div>
-                    <input class="btn btn-lg btn-success btn-block btn-submit text-big mt-5" type="submit" value="Login">
+                    <div class="form-group">
+                        <label class="form-label row">
+                            <p class="text-big">비밀번호 재확인</p>
+                            <p class="text-danger">*</p>
+                        </label>
+                        <input class="form-control"  name="password-confirm" type="password" value="">
+                    </div>
+                    <div class="form-check text-big">
+                        <input class="form-check-input" type="checkbox" id="collection" name="collection">
+                        <label for="collection" class="row">
+                            <p class="text-danger">(필수)</p>
+                            <p>개인정보 수집 및 이용</p>
+                        </label>
+                    </div>
+                    <div class="policy-container text-medium">
+                        <ul class="m-3" style="list-style-type: none">
+                            <li>■ 수집하는 개인정보 항목회사는 회원가입, 상담, 서비스 신청 등등을 위해 아래와 같은 개인정보를 수집하고 있습니다.ο 수집항목 : 이름, 업체명 , 비밀번호, 휴대폰 번호 , 이메일 , 사업자등록증, 법정대리인정보 , 서비스 이용기록 , 접속 로그 , 접속 IP 정보ο 개인정보 수집방법 : 홈페이지(회원가입) , 서면양식</li>
+                            <li>■ 개인정보의 수집 및 이용목적 회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다. ο 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산 콘텐츠 제공 , 구매 및 요금 결제 , 물품배송 또는 청구지 등 발송ο 회원 관리회원제 서비스 이용에 따른 본인확인 , 개인 식별, 고지사항 전달 ο 마케팅 및 광고에 활용접속 빈도 파악 또는 회원의 서비스 이용에 대한 통계</li>
+                            <li>■ 개인정보의 보유 및 이용기간 회사는 개인정보 수집 및 이용목적이 달성된 후에는 예외 없이 해당 정보를 지체 없이 파기합니다.</li>
+                        </ul>
+                    </div>
+                    <input class="btn btn-lg btn-success btn-block btn-submit text-big"  type="submit" value="회원 가입">
                 </fieldset>
             </form>
         </div>
-        <div class="forgot-pw text-blue-500 text-center text-small mt-3">
-            <a href="#">비밀번호를 잊으셨나요?</a>
-        </div>
-        <hr class="col-xl-12 justify-content-center">
-        <button class="btn btn-lg btn-warning btn-block text-big text-white">회원가입 (스타트업)</button>
-        <div class="btn btn-lg btn-primary btn-block text-big">회원가입 (투자자)</div>
-        <div class="btn btn-lg btn-success btn-block text-big" data>회원가입 (일반회원)</a>
-        </div>
+
     </div>
 
 
+
 </div>
-    <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-            integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-            crossorigin="anonymous"></script>
-    <!-- Custom Js -->
-    <script src="./assets/js/index.js"></script>
+
+
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+<!-- Custom Js -->
+<script src="./assets/js/index.js"></script>
 
 </body>
 </html>

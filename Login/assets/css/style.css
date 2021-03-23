@@ -1,19 +1,59 @@
 
-
-html, body {
-	width: 1920px;
-	height: 1080px;
-	color: #222;
+/* ---- Font ---- */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* ---- Global Css ---- */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+html,
+body {
+    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+.img-title{
+    width: 90px !important;
+    height: 80px;
+}
+.nav-img{
+    width: 140px !important;
+    height: 32px;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: unset;
+}
+ul{
+    margin-bottom: 0 !important;
+}
+
+/* ---- Main Css ---- */
+/*# sourceMappingURL=style.css.map */
+
 .navbar {
     background-color: #FFFFFF !important;
     box-shadow: 0 0 8px rgba(0,0,0,0.1) !important;
 }
 
-#navbarResponsive{
-    width: 100%;
-}
 .navbar-nav{
+
     font-size: 18px;
     line-height: 22px;
     display: flex;
@@ -22,52 +62,311 @@ html, body {
 .login-box {
     width: 640px;
     height: 923px;
-    margin:auto;
-    top:47px;
+
+    height: auto;
+    margin: 2em auto;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
 }
+.signup-box {
+    width: 640px;
 
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
 .login-box hr {
-    width: 480px;
+    width: auto;
     height: 0px;
-    left: 80px;
+
     opacity: 0.5;
     border: 1px solid #CFCFCF;
     margin: 48px 0 12px 0;
 }
-.login-title{
+.title{
+    color: #808080;
     padding-top: 80px;
-    padding-bottom: 20px;
 }
-.login-title p {
+.title p {
   margin-top: 24px !important;
 }
-.forgot-pw{
-    padding-top: 16px;
-}
+
 .btn{
     /*background-color: #ff5906 !important;*/
     border-radius: unset !important;
-    margin: 24px 0 24px 0 !important;
+    /*margin: 24px 0 24px 0 !important;*/
     /*margin-top: 24px !important;*/
 }
-.nav-item{
-    margin-right: 24px !important;
-    font-family: "Spoqa Han Sans Neo";
-    size: 18px;
-    line-height: 21px;
+.nav-link{
+    color: #808080 !important;
 }
-
+.language-container{
+    border: 0.5px solid #E8E9EC;
+    border-radius: 4px;
+    width: 30%;
+    margin-left: 16px
+;
+}
+.language-box{
+    margin: 4px 20px 4px 4px;
+}
+.background-white{
+    background: white !important;
+    background-color: white !important;
+}
+.background-gradient{
+    background: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+}
+.nav-item{
+    margin: 8px 24px !important;
+    color: #808080;
+    /*align-self: center;*/
+    /*size: 18px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 21px;*/
+}
+.border-5{
+    border-radius: 5em !important;
+}
 .form-label{
-  margin: 24px 0 16px 0 !important;
+  margin: 8px 0 8px 0 !important;
 }
 .form-control{
-  margin: 16px 0 24px o !important;
+  margin: 8px 0 8px 0 !important;
+  background-color: #F8F9FB !important;
+  border-radius: unset !important;
 }
-.container-fluid hr {
+.line-space {
   width: 100%;
-  height: 20px;
-  background-color: linear-gradient(94.58deg, #FF8A00 0%, #FF5906 101.16%);
+  height: 2px;
+  margin: 0px !important;
+  background-color:  #ff8a00;
+}
+.btn-signup{
+    background-color: #FF8A00;
+    border: unset;
+    border-radius: 80px;
+    color: white;
+
+    width: 99px;
+    height: 34px;
+}
+.btn-submit {
+    background-color: #FF5906 !important;
+}
+.policy-container{
+    background-color: #F8F9FB;
+    margin-bottom: 2em;
+    border: 1px solid #CFCFCF;
+    font-family: "Spoqa Han Sans Neo";
+}
+.forgot-pw-box{
+    width: 640px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin: 10% auto;
+    padding-bottom: 3em;
+    justify-content: center;
+}
+.renew-pw-box{
+    width: 640px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin: 5em auto;
+    padding-bottom: 3em;
+    justify-content: center;
+}
+.forgot-pw-container{
+    width: 70%;
+    margin: 1em auto;
+}
+.popup-temporary-password{
+    width: 420px;
+    height: 205px;
+    position: absolute;
+    top: 30%;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    justify-content: center;
+}
+.renew-pw-form{
+    width: 70%;
+    margin: auto;
 }
 
+.disable-collapse{
+    right: 0;
+    position: absolute;
+    margin-top: 15px;
+}
+.nav-header{
+    z-index: 0;
+}
+.panel-body{
+    margin-top: 1em;
+}
+.home-collapse{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    right: 0;
+}
+/*.nav-item{*/
+/*    align-self: flex-start !important;*/
+/*    margin-left: 30px;*/
+/*}*/
+.margin-l-2{
+    margin-left: 1em !important;
+}
+@media (max-width: 1920px){
+    .content-container{
+        max-width: 80%;
+    }
+    .text-big{
+        font-size: 18px !important;
+        line-height: 21px !important;
+    }
+    .language-container {
+        width: 14% !important;
+    }
+    .signup-box{
+        margin:3em auto !important;
+        width: 640px !important;
+    }
+    .home-collapse{
+        visibility: hidden;
+    }
+}
+@media (max-width: 992px){
+    .content-container{
+        max-width: 80%;
+    }
+    .text-big{
+        font-size: 18px !important;
+        line-height: 21px !important;
+    }
+    .text-medium{
+        font-size: 16px !important;
+        line-height: 21px !important;
+    }
+    .text-small{
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+    .language-container {
+        width: 20% !important;
+    }
+    .signup-box{
+        margin:3em auto;
+    }
+    .login-box{
+        width: 50vw;
+        height: auto;
+    }
+    .home-collapse{
+        width: 35vw !important;
+        visibility: unset;
+    }
+}
+@media (max-width: 768px){
+    /*.content-container{*/
+    /*    max-width: 90%;*/
+    /*}*/
+    .upload-img{
+        width: 64px !important;
+        height: 64px !important;
+    }
+    .product-logo{
+        width: 84px !important;
+        height: 49px !important;
+    }
+    .find-address{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .text-big{
+        font-size: 16px !important;
+        line-height: 19px !important;
+    }
+    .text-medium{
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+    .text-small{
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+    .home-collapse{
+        width: 35vw !important;
+        visibility: unset;
+    }
+    .language-container {
+        width: 20% !important;
+    }
+    .signup-box{
+        margin: 1.5em auto;
+        width: 80vw !important;
+    }
+    .login-box{
+        width: 80vw;
+        height: auto;
+    }
+    .forgot-pw-box{
+        width: 80vw;
+    }
+    .img-title{
+        width: 78px;
+        height: 70px;
+    }
+    .renew-pw-box{
+        width: 80vw;
+    }
+}
+@media (max-width: 576px){
+    .content-container{
+        max-width: 90%;
+        padding: unset !important;
+        margin: auto !important;
+    }
+
+    .upload-img{
+        width: 64px !important;
+        height: 64px !important;
+    }
+    .product-logo{
+        width: 54px !important;
+        height: 30px !important;
+    }
+    .small{
+        font-size: 5px;
+    }
+    .text-big{
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+    .text-medium{
+        font-size: 12px !important;
+        line-height: 16px !important;
+    }
+    .text-small{
+        font-size: 10px !important;
+        line-height: 12px !important;
+    }
+    .home-collapse{
+        width: 50vw !important;
+        visibility: unset;
+    }
+    .language-container {
+        width: 30% !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .signup-box{
+        margin: 1.5em auto;
+        width: 90vw !important;
+    }
+}
