@@ -714,6 +714,43 @@ section {
                             font-size: 12px;
                         }
                     }
+
+                    .gr3 {
+                        .d-flex {
+                            label {
+                                font-size: 9.6px;
+                                padding-top: 5px;
+                            }
+                        }
+                    }
+
+                    .gr4 {
+                        label {
+                            font-size: 9.6px;
+                        }
+                    }
+                }
+
+                .two {
+                    margin-top: 30px;
+
+                    .card {
+                        .card-title {
+                            font-size: 12.8px;
+                        }
+
+                        .gr1,
+                        .gr2,
+                        .gr3 {
+                            p {
+                                font-size: 9.6px;
+                            }
+                        }
+
+                        a {
+                            font-size: 12.8px;
+                        }
+                    }
                 }
             }
         }
