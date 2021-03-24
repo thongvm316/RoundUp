@@ -19,23 +19,321 @@
 </head>
 
 <body>
+  <!-- Menu -->
+  <div class="menu">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/Logo.png" width="30" height="30" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">스타트업</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">투자사</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">큐레이션</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">미디어</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">커뮤니티</a>
+            </li>
+          </ul>
+          <div class="login-register-language d-flex align-items-center">
+            <p><a href="#">로그인</a></p>
+            <p><a href="#">가입하기</a></p>
+            <div class="d-flex">
+              <img width="32" height="30" src="./assets/img/country.png" alt="">
+              <i class="fas fa-sort-down"></i>
+            </div>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+  </div>
 
+  <!-- Banner -->
+  <section class="banner">
+    <div class="container-fluid">
+      <div class="background"></div>
+      <div class="card card-one" style="width: 18rem;">
+        <div class="card-body">
+          <div>
+            <img src="./assets/img/logo-banner.png" alt="">
+          </div>
+          <p class="card-text pt-3">Round Up은 최적의 다양한 IR정보를 제공하고,
+            최선의 투자 매칭 프로세스를 지원하는 글로벌 투자 매칭 플랫폼입니다.</p>
+          <div class="gr-btn d-flex mx-auto">
+            <a href="#" class="card-link btn btn-outline-secondary">회원가입</a>
+            <a href="#" class="card-link btn btn-outline-secondary">IR 검토 요청 보내기</a>
+          </div>
+        </div>
+      </div>
 
+      <div class="card card-two" style="width: 18rem;">
+        <div class="card-body">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="d-flex flex-column text-center pt-3">
+            <h5 class="card-title">IR 검토 요청을 신청하시겠습니까?</h5>
+            <p class="card-text pt-3">남은 검토 요청 횟수 <span>3</span>회</p>
+            <div class="dropdown">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                요청 투자사 수 <span>1</span>회
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">요청 투자사 수 <span>1</span>회</a>
+                <a class="dropdown-item" href="#">요청 투자사 수 <span>1</span>회</a>
+                <a class="dropdown-item" href="#">요청 투자사 수 <span>1</span>회</a>
+              </div>
+            </div>
+            <div class="gr-btn d-flex mx-auto pt-4">
+              <a href="#" class="card-link btn btn-secondary">취소</a>
+              <a href="#" class="card-link btn btn-secondary">요청</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ROUND UP's own know-how -->
+  <section class="own-know-how mt-5">
+    <div class="container-xl">
+      <div class="row shadow">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 left">
+          <div>
+            <img src="./assets/img/bg-own-know-how.png" alt="">
+          </div>
+        </div>
 
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-7 right d-flex flex-column justify-content-center">
+          <h2>ROUND UP 만의 노하우를 가득 담은</h2>
+          <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a
+            pharetra, feugiat
+            cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo
+            volutpat, pharetra, vel.</p>
+          <div><button class="btn btn-secondary mt-4">시작하다 <i class="fas fa-arrow-right"></i></button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reliable -->
+  <section class="reliable mt-5">
+    <div class="container-xl">
+      <div class="row shadow">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 left">
+          <h2>투자사가 직접 하니까 더 믿을 수 있는</h2>
+          <h6>우리 기업 IR 검토 요청</h6>
+          <p class="pt-5">Headline <br><span>One line description</span></p>
+          <p class="pt-5">Headline <br><span>One line description</span></p>
+          <div class="pt-4">
+            <button class="btn btn-secondary pt-2">시작하다 <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 right">
+          <div class="d-flex pb-2">
+            <div class="pr-2">
+              <img src="./assets/img/reliable1.png" alt="">
+            </div>
+            <div>
+              <img src="./assets/img/reliable4.png" alt="">
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="pr-2">
+              <img src="./assets/img/reliable3.png" alt="">
+            </div>
+            <div>
+              <img src="./assets/img/reliable2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscribe -->
+  <section class="subscribe mt-5">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 left">
+          <div>
+            <img src="./assets/img/bg-subscribe.png" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 right">
+          <div>
+            <h2 class="pb-3">라운드업</h2>
+            <h6 class="pb-3">라운드업이 제공하는 정기 매거진을 구독해보세요!</h6>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s</p>
+            <button class="btn btn-light pt-2">시작하다 <i class="fas fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Select-a-plan -->
+  <section class="select-plan mt-5">
+    <div class="container-xl">
+      <div class="row px-auto">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 title text-center">
+          <h2 class="mb-5">플랜을 선택해주세요</h2>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="d-flex flex-column align-items-center card-roundup1 shadow">
+            <h3 class="mt-4">advanced</h3>
+            <h1 class="pt-4">round_s</h1>
+            <div class="line" style="background-color: #E8E9EC; height: 1px; width: 100%;"></div>
+            <p class="pt-md-3 pt-lg-5 pt-xl-5 text-center">큐레이션 기본 정보 제공<br>(구독서비스 1개월)</p>
+            <p class="pt-lg-4 pt-xl-4">IR검토 및 피드백 3건</p>
+            <div class="price mt-lg-5 mt-xl-5 text-center border">
+              <p>KRW 90,000</p>
+              <p>(1건당 30,000)</p>
+            </div>
+            <div class="line-bold" style="background-color: #EC642D; 
+                        width: 100%;
+                        height: 24px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="d-flex flex-column align-items-center card-roundup2 shadow">
+            <h3 class="mt-4">ULTIMATE</h3>
+            <h1 class="pt-4">ROUND_SR</h1>
+            <div class="line" style="background-color: #E8E9EC; height: 1px; width: 100%;"></div>
+            <p class="pt-md-3 pt-lg-5 pt-xl-5 text-center">큐레이션 기본 정보 제공<br>(구독서비스 2개월)</p>
+            <p class="pt-lg-4 pt-xl-4">IR 검토 및 피드백 6건</p>
+            <div class="price mt-lg-5 mt-xl-5 text-center border">
+              <p>KRW 162,000</p>
+              <p>(1건당 27,000)</p>
+            </div>
+            <div class="line-bold" style="background-color: #EC642D; 
+                     width: 100%; 
+                     height: 24px;
+                     position: absolute;
+                     bottom: 0;
+                     left: 0;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+          <div class="d-flex flex-column align-items-center card-roundup3 shadow">
+            <h3 class="mt-4">PLATINUM</h3>
+            <h1 class="pt-4">ROUND_SRR</h1>
+            <div class="line" style="background-color: #E8E9EC; height: 1px; width: 100%;"></div>
+            <p class="pt-md-3 pt-lg-5 pt-xl-5 text-center">큐레이션 기본 정보 제공<br>(구독서비스 3개월)</p>
+            <p class="pt-lg-4 pt-xl-4">IR 검토 및 피드백 10건</p>
+            <div class="price mt-lg-5 mt-xl-5 text-center border">
+              <p>KRW 240,000</p>
+              <p>(1건당 24,000)</p>
+            </div>
+            <div class="line-bold" style="background-color: #EC642D; 
+                     width: 100%; 
+                     height: 24px;
+                     position: absolute;
+                     bottom: 0;
+                     left: 0;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment company with Roundup -->
+  <section class="investment-with-roundup"></section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <div class="container-xl p-xl-4">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="row style-footer">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-7">
+              <div class="desc">
+                <div style="width: 141px; height: 32px;">
+                  <img src="./assets/img/Logo-footer.png" alt="">
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum eveniet quas laboriosam. Eligendi ad
+                  aspernatur maiores officia excepturi nihil expedita?</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+              <div class="about-us">
+                <div class="company text-uppercase">
+                  <h1>company</h1>
+                  <p>블로그</p>
+                  <p>언론보도</p>
+                  <p>마켓</p>
+                </div>
+                <div class="policies text-uppercase">
+                  <h1>policies</h1>
+                  <p>이용약관</p>
+                  <p>개인정보처리방침</p>
+                </div>
+                <div class="support text-uppercase">
+                  <h1>support</h1>
+                  <p>faq</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="line"></div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="info">
+            <p>상호 : (주)탈잉 | 주소 : 서울특별시 강남구 역삼동 621 -19 | 사업자등록번호 : 767-88-00630 | 대표자명 : 김윤환</p>
+            <p>통신판매업 신고번호 : 제 2017-서울강남-02964</p>
+            <p>Copyright ⓒ2020 Round Up inc, ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
   <!-- Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
     integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-  </script>
+    </script>
   <!-- Custom Js -->
   <script src="./assets/js/index.js"></script>
 </body>
