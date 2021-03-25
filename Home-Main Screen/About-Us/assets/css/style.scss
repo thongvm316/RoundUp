@@ -34,6 +34,34 @@ p {
     line-height: 1.6;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    // width: 504px;
+    height: auto;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
 // section {
 //     padding: 1.5rem;
 // }
@@ -126,7 +154,7 @@ p {
             left: 10%;
             transform: translateY(-50%);
 
-            width: 769px !important;
+            width: 769px;
             height: 389px;
 
             border-bottom-left-radius: 40px;
@@ -148,7 +176,7 @@ p {
                     padding-top: 100px;
 
                     >a {
-                        width: 290px;
+                        width: 50%;
                         height: 53px;
                         padding-top: 15px;
                     }
@@ -450,6 +478,49 @@ p {
     }
 }
 
+/* Investment company with Roundup */
+.investment-with-roundup {
+    .fix-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-fluid {
+        .row {
+            .title h2 {
+                font-size: 36px;
+                color: #FF5906;
+            }
+        }
+
+        .swiper-container {
+            .swiper-slide {
+                div:nth-child(1) {
+                    width: 100%;
+                }
+
+                .d-flex {
+                    p:nth-child(1) {
+                        font-size: 24px;
+                        color: #000000;
+                    }
+
+                    p:nth-child(2) {
+                        font-size: 24px;
+                        color: #808080;
+                        font-weight: 300;
+                    }
+                }
+
+                p {
+                    font-size: 24px;
+                    color: #808080;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
 
 /* Footer */
 .footer {
@@ -512,6 +583,184 @@ p {
 }
 
 /* Media */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner {
+        .container-fluid {
+            .card-one {
+                width: 80vw;
+
+                .card-body {
+                    .gr-btn {
+                        width: 450px;
+                    }
+                }
+            }
+
+            .card-two {
+                display: none;
+            }
+        }
+    }
+
+    .own-know-how {
+        width: 90vw;
+        margin: 0 auto;
+
+        .container-xl {
+            .row {
+                .left {
+                    div {
+                        width: 208px;
+                        height: 208px;
+                    }
+                }
+
+                .right {
+                    h2 {
+                        font-size: 18px;
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+
+                    div button {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .reliable {
+        width: 90vw;
+        margin: 0 auto;
+
+        .container-xl {
+            .row {
+                .left {
+                    h2 {
+                        font-size: 18px;
+                    }
+
+                    h6 {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        font-size: 12px;
+
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+
+                    div button {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .subscribe {
+        .container-xl {
+            .row {
+                .right {
+                    height: 182px;
+
+                    div {
+                        h2 {
+                            font-size: 24px;
+                        }
+
+                        h6 {
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 10px;
+                            margin-bottom: 3px;
+                        }
+
+                        button {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .select-plan {
+        .container-xl {
+            .row {
+                .title h2 {
+                    font-size: 18px;
+                }
+
+                .card-roundup1,
+                .card-roundup2,
+                .card-roundup3 {
+                    width: 220px;
+                    height: 337px;
+
+                    h3 {
+                        font-size: 11px;
+                    }
+
+                    h1 {
+                        font-size: 19px;
+                    }
+
+                    p {
+                        font-size: 9.5px;
+                    }
+
+                    .price {
+                        padding: 13px 50px;
+
+                        P:nth-child(1) {
+                            font-size: 13px;
+                        }
+
+                        p:nth-child(2) {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .investment-with-roundup {
+        .container-fluid {
+            .row {
+                .title h2 {
+                    font-size: 18px;
+                }
+            }
+
+            .swiper-container {
+                .swiper-slide {
+
+                    .d-flex {
+
+                        p:nth-child(1),
+                        p:nth-child(2) {
+                            font-size: 9.6px;
+                        }
+                    }
+
+                    p {
+                        font-size: 9.6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (min-width: 1200px) {
     .container-xl {
         max-width: 1560px !important;

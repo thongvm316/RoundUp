@@ -33,6 +33,28 @@ p {
   line-height: 1.6;
 }
 
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  height: auto;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 /* ---- Main Css ---- */
 /* Menu */
 .menu .container-fluid {
@@ -111,7 +133,7 @@ p {
   left: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  width: 769px !important;
+  width: 769px;
   height: 389px;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -133,7 +155,7 @@ p {
 }
 
 .banner .container-fluid .card-one .card-body .gr-btn > a {
-  width: 290px;
+  width: 50%;
   height: 53px;
   padding-top: 15px;
 }
@@ -402,6 +424,38 @@ p {
   color: #808080;
 }
 
+/* Investment company with Roundup */
+.investment-with-roundup .fix-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.investment-with-roundup .container-fluid .row .title h2 {
+  font-size: 36px;
+  color: #FF5906;
+}
+
+.investment-with-roundup .container-fluid .swiper-container .swiper-slide div:nth-child(1) {
+  width: 100%;
+}
+
+.investment-with-roundup .container-fluid .swiper-container .swiper-slide .d-flex p:nth-child(1) {
+  font-size: 24px;
+  color: #000000;
+}
+
+.investment-with-roundup .container-fluid .swiper-container .swiper-slide .d-flex p:nth-child(2) {
+  font-size: 24px;
+  color: #808080;
+  font-weight: 300;
+}
+
+.investment-with-roundup .container-fluid .swiper-container .swiper-slide p {
+  font-size: 24px;
+  color: #808080;
+  font-weight: 300;
+}
+
 /* Footer */
 .footer {
   margin-top: 124px;
@@ -464,6 +518,119 @@ p {
 }
 
 /* Media */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .banner .container-fluid .card-one {
+    width: 80vw;
+  }
+  .banner .container-fluid .card-one .card-body .gr-btn {
+    width: 450px;
+  }
+  .banner .container-fluid .card-two {
+    display: none;
+  }
+  .own-know-how {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .own-know-how .container-xl .row .left div {
+    width: 208px;
+    height: 208px;
+  }
+  .own-know-how .container-xl .row .right h2 {
+    font-size: 18px;
+  }
+  .own-know-how .container-xl .row .right p {
+    font-size: 12px;
+  }
+  .own-know-how .container-xl .row .right div button {
+    font-size: 14px;
+  }
+  .reliable {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  .reliable .container-xl .row .left h2 {
+    font-size: 18px;
+  }
+  .reliable .container-xl .row .left h6 {
+    font-size: 12px;
+  }
+  .reliable .container-xl .row .left p {
+    font-size: 12px;
+  }
+  .reliable .container-xl .row .left p span {
+    font-size: 12px;
+  }
+  .reliable .container-xl .row .left div button {
+    font-size: 14px;
+  }
+  .subscribe .container-xl .row .right {
+    height: 182px;
+  }
+  .subscribe .container-xl .row .right div h2 {
+    font-size: 24px;
+  }
+  .subscribe .container-xl .row .right div h6 {
+    font-size: 12px;
+  }
+  .subscribe .container-xl .row .right div p {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  .subscribe .container-xl .row .right div button {
+    font-size: 10px;
+  }
+  .select-plan .container-xl .row .title h2 {
+    font-size: 18px;
+  }
+  .select-plan .container-xl .row .card-roundup1,
+  .select-plan .container-xl .row .card-roundup2,
+  .select-plan .container-xl .row .card-roundup3 {
+    width: 220px;
+    height: 337px;
+  }
+  .select-plan .container-xl .row .card-roundup1 h3,
+  .select-plan .container-xl .row .card-roundup2 h3,
+  .select-plan .container-xl .row .card-roundup3 h3 {
+    font-size: 11px;
+  }
+  .select-plan .container-xl .row .card-roundup1 h1,
+  .select-plan .container-xl .row .card-roundup2 h1,
+  .select-plan .container-xl .row .card-roundup3 h1 {
+    font-size: 19px;
+  }
+  .select-plan .container-xl .row .card-roundup1 p,
+  .select-plan .container-xl .row .card-roundup2 p,
+  .select-plan .container-xl .row .card-roundup3 p {
+    font-size: 9.5px;
+  }
+  .select-plan .container-xl .row .card-roundup1 .price,
+  .select-plan .container-xl .row .card-roundup2 .price,
+  .select-plan .container-xl .row .card-roundup3 .price {
+    padding: 13px 50px;
+  }
+  .select-plan .container-xl .row .card-roundup1 .price P:nth-child(1),
+  .select-plan .container-xl .row .card-roundup2 .price P:nth-child(1),
+  .select-plan .container-xl .row .card-roundup3 .price P:nth-child(1) {
+    font-size: 13px;
+  }
+  .select-plan .container-xl .row .card-roundup1 .price p:nth-child(2),
+  .select-plan .container-xl .row .card-roundup2 .price p:nth-child(2),
+  .select-plan .container-xl .row .card-roundup3 .price p:nth-child(2) {
+    font-size: 10px;
+  }
+  .investment-with-roundup .container-fluid .row .title h2 {
+    font-size: 18px;
+  }
+  .investment-with-roundup .container-fluid .swiper-container .swiper-slide .d-flex p:nth-child(1),
+  .investment-with-roundup .container-fluid .swiper-container .swiper-slide .d-flex p:nth-child(2) {
+    font-size: 9.6px;
+  }
+  .investment-with-roundup .container-fluid .swiper-container .swiper-slide p {
+    font-size: 9.6px;
+  }
+}
+
 @media (min-width: 1200px) {
   .container-xl {
     max-width: 1560px !important;
