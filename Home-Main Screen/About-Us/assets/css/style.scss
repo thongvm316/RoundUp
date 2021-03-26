@@ -271,7 +271,7 @@ p {
         .row {
             padding: 80px;
             background-color: #fff;
-            border-radius: 30px;
+            border-radius: 20px;
 
             .left {
                 div {
@@ -310,7 +310,7 @@ p {
         .row {
             padding: 80px;
             background-color: #fff;
-            border-radius: 30px;
+            border-radius: 20px;
 
             .left {
                 h2 {
@@ -754,6 +754,135 @@ p {
 
                     p {
                         font-size: 9.6px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .menu {
+        .container-fluid {
+            nav {
+                .navbar-collapse {
+                    ul {
+                        li {
+                            a {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    .login-register-language {
+                        p a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .banner {
+        .container-fluid {
+            .card-one {
+                width: 80vw;
+                height: 170px;
+
+                .card-body {
+                    .gr-btn {
+                        width: 260px;
+                        padding-top: 10px;
+
+                        >a {
+                            font-size: 9px;
+                            height: 30px;
+                            padding-top: 9px;
+                        }
+                    }
+
+                    p {
+                        font-size: 9px;
+                    }
+
+                    .style-img {
+                        width: 78px;
+                        height: 18px;
+                    }
+                }
+            }
+
+            .card-two {
+                display: none;
+                width: 80vw !important;
+                height: 200px;
+
+                .card-body {
+                    .d-flex {
+                        h5 {
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 9px;
+                        }
+
+                        .dropdown {
+                            button {
+                                font-size: 9px;
+                            }
+
+                            .dropdown-menu {
+                                a {
+                                    font-size: 9px;
+                                }
+                            }
+                        }
+
+                        .gr-btn {
+                            width: 100%;
+                            padding-top: 0px !important;
+
+                            >a {
+                                font-size: 9px;
+                                height: 30px;
+                                padding-top: 9px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .own-know-how {
+        width: 90vw;
+        margin: 0 auto;
+
+        .container-xl {
+            .row {
+                padding: 15px;
+
+                .left {
+                    div {
+                        width: 114px;
+                        height: 114px;
+                    }
+                }
+
+                .right {
+                    h2 {
+                        font-size: 10px;
+                    }
+
+                    p {
+                        font-size: 7px;
+                        margin-bottom: 0;
+                    }
+
+                    div button {
+                        font-size: 8px;
                     }
                 }
             }
